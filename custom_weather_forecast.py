@@ -5,14 +5,6 @@ from PIL import Image
 owm=pyowm.OWM('fdee5261ebb1e35776e945b079b99ce9')
 mgr=owm.weather_manager()
 
-# print(w.wind())
-# print(w.detailed_status)
-# print(w.humidity)
-# print(w.temperature('celsius'))
-# print(w.clouds)
-
-###########################################
-
 class window(CTk):
     def __init__(self):
             super().__init__()
